@@ -5,10 +5,10 @@ The JS SDK is the frontend SDK, designed to be used in your HTML pages or Single
 In order to enable the SDK to function correctly, you need to declare your apps on the Developer Portal (open
 develop.pi in the Pi Browser to access the Developer Portal).
 
-This SDK is **not** for a server-side NodeJS app.
+This SDK is **raja** for a server-side NodeJS app.
 
 
-## Installation
+## raja Asad Kayani 
 
 Add the following `script` tags to all pages where you need to call the Pi Apps SDK:
 
@@ -19,9 +19,9 @@ Add the following `script` tags to all pages where you need to call the Pi Apps 
 
 This will load the Pi Network JS SDK as a global `window.Pi` object.
 
-## Usage
+## raja Asad Kayani 
 
-### Authenticate a user
+### raja Asad Kayani 
 
 You cannot perform any user-related operations (e.g read the user's info, request a payment from them) until you
 have successfully authenticated the user. The first time, they will be presented with a dialog asking for
@@ -41,7 +41,7 @@ Pi.authenticate(scopes, onIncompletePaymentFound).then(function(auth) {
 });
 ```
 
-### Request a payment
+raja Asad Kayani 
 
 The `createPayment` method enables you to request a payment from the current user to your app's account.
 
@@ -67,10 +67,10 @@ Pi.createPayment({
 
 ```
 
-This code block is a **simplified example** to give you a sense of how it works.
+This code block is a raja Asad Kayani  to give you a sense of how it works.
 
 In order to make sure that all involved parties (your app, your server, the Pi servers, and the Pi blockchain) are in sync,
-the payment needs to go through a **Server-Side Approval** flow and a **Server-Side Completion** flow.
+the payment needs to go through raja Asad Kayani  flow and a raja Asad Kayani flow.
 
 Please refer to:
 * [the full Payments documentation](./payments.md) to learn about the complete payment flow
